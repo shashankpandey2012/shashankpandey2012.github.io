@@ -1,10 +1,69 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>SHASHANK PANDEY</title>
-  </head>
+<head>
+	<title>Shashank Pandey</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="animo.min.js" type="text/javascript"></script>
+	<link href="animate-animo.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 <body>
- <center><h1> Hi ! This is SHASHANK PANDEY</h1></center>
-  <center><a href="http://www.shashankpandey.me"><img src="https://avatars3.githubusercontent.com/u/17215593?v=3&u=962e6919b1ff3d5536d22349620a0a2492bbe6c8&s=400"/></a></center>
+<div class="container">
+	<div class="jumbotron head">
+		<div class="container">
+			<h1>Shashank Pandey</h1>
+			<p>I <span class="glyphicon glyphicon-heart"></span> to code softwares....</p>
+		
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12"><h2 class="text-center">Know more about me @</h2></div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="container">
+			<div class="col-md-4 social" id="fb">
+				<div>
+					<a href="https://www.facebook.com/shashank.pandey.948011"><img src="fbicon.png" alt=""></a>
+				</div>
+			</div>
+			<div class="col-md-4 social">
+				<div>
+					<a href="https://twitter.com/Shashank_P94"><img src="twitter.png" alt="" id="twitter"></a>
+				</div>
+			</div>
+			<div class="col-md-4 social">
+				<div>
+					<a href="https://www.quora.com"><img src="quora.png" alt="" id="quora"><a>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('.social').animo({animation: "spinner", iterate: 2});
+				$('#fb').hover(function() {
+					$('#fb').animo({animation: "tada", iterate: 2});
+				}, function() {
+					/* Stuff to do when the mouse leaves the element */
+				});
+				$('#twitter').hover(function() {
+					$('#twitter').animo({animation: "tada", iterate: 2});
+				}, function() {
+					/* Stuff to do when the mouse leaves the element */
+				});
+				$('#quora').hover(function() {
+					$('#quora').animo({animation: "tada", iterate: 2});
+				}, function() {
+					/* Stuff to do when the mouse leaves the element */
+				});
+				//$('#demo10').animo({animation: "spinner", iterate: 2});
+				//$('#demo11').animo({animation: "spinner", iterate: 2});
+			</script>
+		</div>
+		<hr>
+	</div>
+</div>
+</div>
 </body>
 </html>
